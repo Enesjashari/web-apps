@@ -23,14 +23,12 @@ def home(request):
                 result = n1*n2
             elif operator =='**':
                 result = n1**n2
-            elif operator =='/':
-                result = n1/n2
             elif operator =='//':
                 result = n1//n2
             elif operator =='%':
                 result = n1%n2
 
     except:
-        result = 'Wrong Opperator!Try Again.'
+        result = 'wrong opperator'
         print(result)
     return render(request,'home.html',{'result':result})
