@@ -45,7 +45,3 @@ admin.site.register(Sport, MyModelAdmin)
 # admin.site.register(Video)
 
 
-#   createsuperuser credencials
-
-#   username = e
-#   password = e
